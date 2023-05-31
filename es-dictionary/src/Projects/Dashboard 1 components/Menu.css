@@ -1,0 +1,97 @@
+
+.Menu{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7d2ae8;
+}
+
+.flexbox{
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    width: 80%;
+    padding-top: 10px;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2px;
+    margin:0.7rem 1.9rem;
+
+    
+}
+
+.circular-progress1{
+    position: relative;
+    height: 6rem;
+    width: 6rem;
+    background: conic-gradient(#000000 45%, #ededed 0deg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-progress1::before{
+    content:"";
+    position: absolute;
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.circular-progress2{
+    position: relative;
+    height: 6rem;
+    width: 6rem;
+    background: conic-gradient(#000000 10%, #ededed 0deg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-progress2::before{
+    content:"";
+    position: absolute;
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.circular-progress3{
+    position: relative;
+    height: 6rem;
+    width: 6rem;
+    background: conic-gradient(#000000 50%, #ededed 0deg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-progress3::before{
+    content:"";
+    position: absolute;
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.progress-value{
+    position: relative;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.text{
+    position: relative;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000;
+}

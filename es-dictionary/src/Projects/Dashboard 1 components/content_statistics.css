@@ -1,0 +1,94 @@
+.content_statistics{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: left;
+    height: 86%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.user_details{
+    position: relative;
+    background-color: red;
+    width: 320px;
+    height: 76vh;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
+.user_background{
+}
+
+.background{
+   position: relative;
+   background-color: aqua;
+   width: 50%;
+   height: 140px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   align-items: center;
+   justify-content: center;
+   transform: translate(50%);
+   border-radius: 50%;
+}
+
+.user_icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.user{
+    position: relative;
+    background-color: bisque;
+    height: 59.4vh;
+}
+
+.user h2{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.user ul li{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    text-align: left;
+}
+
+.data_statistics{
+display: relative;
+margin: 0;
+padding: 0;
+right: 1px;
+height: 76vh;
+width: 90%;
+background-color: rgb(95, 155, 155);
+}
+
+.data_statistics h2{
+    position: relative;
+    top: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.data_statistics img{
+    position: relative;
+    content: url('./statatistics.png');
+    top: 30px;
+    width: 80%;
+    height: 50vh;
+    align-items: center;
+    align-content: center;
+    transform: translate(10%);
+}
